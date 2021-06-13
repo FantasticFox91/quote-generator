@@ -179,7 +179,15 @@ button-night{
     margin:auto 10px
     }
 
-.quote-text{
+.quote{
+    font-size: 4rem;
+}
+
+#author{
+    font-size: 35px;
+}
+
+.header-container{
     font-size: 2.5rem;
 }
 
