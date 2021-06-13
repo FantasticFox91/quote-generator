@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quote generator</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=css-tricks.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky header -->
+    <div class="header-container sticky" id="header-container">
+        <div class="logo-container">
+            <div class="logo" id="logo">Logo</div>
+        </div>
+        <div class="buttonPicker-container">
+            <div class="language-container">
+                <label for="language" id="languageLabel">Choose you language:</label>
+                <select name="language" id="language">
+                    <option value="Ru">Русский</option>
+                    <option value="En" selected>English</option>
+                </select>
+            </div>
+            <div class="changeTheme-container">
+                <button class="changeThemeBtn" id="changeThemeBtn"><i class="far fa-moon" id="themeLogo"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="second">
+        <div class="quote-container" id="quote-container" >
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- Author -->
+        <div class="quote-authot">
+            <span id="author"></span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+        </div>
+    </div>
+    
+<!-- Loader -->
+<div class="loader" id="loader" hidden></div>
+    
+ <!-- Script -->
+ <script src="quotes.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>
