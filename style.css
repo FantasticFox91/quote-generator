@@ -43,7 +43,7 @@ body{
     align-items: center;
     width:85%;
     justify-content: flex-end;
-    
+    margin-right: 50px;
 }
 
 .second{
@@ -190,5 +190,19 @@ button-night{
 .header-container{
     font-size: 2.5rem;
 }
+.buttonPicker-container{
+    margin-right: 50px;
+}
 
+.changeThemeBtn{
+   width:50px;
+   height:50px;
+}
+.header-container{
+    height: 9vh;
+  }
+  select#language {
+    width: 150px;
+    margin: 10px;
+}
 }
